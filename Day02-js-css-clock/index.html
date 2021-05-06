@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper__icons">
+
+      <img src="icons/Alarm.svg" alt="icons">
+      <img src="icons/World.svg" alt="icons">
+      <img src="icons/Stopwatch.svg" alt="icons">
+      <img src="icons/Timer.svg" alt="icons">
+
+    </div>
+    
+    <div class="clock__container">
+      <!-- indicators -->
+      <div class="number num1"></div>
+      <div class="number num2"></div>
+      <div class="number num3"></div>
+      <div class="number num4"></div>
+      <div class="number num5"></div>
+      <div class="number num6"></div>
+      <div class="number num7"></div>
+      <div class="number num8"></div>
+      <div class="number num9"></div>
+      <div class="number num10"></div>
+      <div class="number num11"></div>
+      <div class="number num12"></div>
+      <!-- hands -->
+      <div class="hand second-hand"></div>
+      <div class="hand minute-hand"></div>
+      <div class="hand hour-hand"></div>
+    </div>
+
+    <div class="clock-information">
+      <h3>Local Time Zone</h3>
+      <p>
+        <span class="date">Monday. 15 July</span>
+      </p>
+    </div>
+    <!-- cards -->
+    <div class="cards">
+      <div class="card first">
+        <h3 class="card-city">Jakarta</h3>
+        <h3 class="card__hour">05:00 am</h3>
+        <p>Monday, 15 July</p>
+      </div>
+      <div class="card">
+        <h3 class="card-city">New York</h3>
+        <h3 class="card__hour">06:00 pm</h3>
+        <p>Sunday, 14 July</p>
+      </div>
+      <div class="card">
+        <h3 class="card-city">London</h3>
+        <h3 class="card__hour">11:00 am</h3>
+        <p>Sunday, 14 July</p>
+      </div>
+      <div class="button_content">
+        <button class="btn">Add City</button>
+      </div>
+    </div>
+  </div> <!--wrapper-->
+
+  <script src="index.js"></script>
+</body>
+</html>
