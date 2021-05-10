@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scoped CSS Variables and JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2 class="title">Update CSS Variables with <span class='hl'>JS</span></h2>
+
+  <div class="controls">
+    
+    <div class="box">
+      <p>Padding Image:</p>
+      <div class="range-container">
+        <input id="spacing" type="range" name="padd" min="10" max="50"  value="10" data-sizing="px">
+        <span class="value">10</span>
+      </div>
+    </div>
+
+    <div class="box">
+      <p>Blur Image:</p>
+      <div class="range-container">
+        <input id="blur" type="range" name="blur" min="0" max="5" value="0" step="0.5" data-sizing="px">
+        <span class="value">0</span>
+      </div>
+    </div>
+    
+    <div class="box">
+      <p>Color Image:</p>
+      <div class="range-container">
+        <input id="base" type="color" name="base" value="#ffc600" class="color">
+        <span class="value color">#ffc107</span>
+      </div>
+    </div>
+   
+  </div>
+  
+  <div class="img-container">
+    <img src="https://picsum.photos/id/171/300/300">
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
